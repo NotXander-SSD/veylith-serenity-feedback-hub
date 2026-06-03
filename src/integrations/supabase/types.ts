@@ -20,39 +20,39 @@ export type Database = {
           created_at: string
           device: string
           email: string | null
-          had_bugs: boolean
+          has_bug: boolean
           id: string
           improvements: string | null
           liked_most: string | null
+          name: string | null
           other_comments: string | null
-          rating: number
-          tester_name: string | null
+          star_rating: number
         }
         Insert: {
           bug_description?: string | null
           created_at?: string
           device: string
           email?: string | null
-          had_bugs?: boolean
+          has_bug?: boolean
           id?: string
           improvements?: string | null
           liked_most?: string | null
+          name?: string | null
           other_comments?: string | null
-          rating: number
-          tester_name?: string | null
+          star_rating: number
         }
         Update: {
           bug_description?: string | null
           created_at?: string
           device?: string
           email?: string | null
-          had_bugs?: boolean
+          has_bug?: boolean
           id?: string
           improvements?: string | null
           liked_most?: string | null
+          name?: string | null
           other_comments?: string | null
-          rating?: number
-          tester_name?: string | null
+          star_rating?: number
         }
         Relationships: []
       }
