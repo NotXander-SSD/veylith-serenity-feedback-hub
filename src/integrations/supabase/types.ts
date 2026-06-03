@@ -14,7 +14,48 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      beta_feedback: {
+        Row: {
+          bug_description: string | null
+          created_at: string
+          device: string
+          email: string | null
+          had_bugs: boolean
+          id: string
+          improvements: string | null
+          liked_most: string | null
+          other_comments: string | null
+          rating: number
+          tester_name: string | null
+        }
+        Insert: {
+          bug_description?: string | null
+          created_at?: string
+          device: string
+          email?: string | null
+          had_bugs?: boolean
+          id?: string
+          improvements?: string | null
+          liked_most?: string | null
+          other_comments?: string | null
+          rating: number
+          tester_name?: string | null
+        }
+        Update: {
+          bug_description?: string | null
+          created_at?: string
+          device?: string
+          email?: string | null
+          had_bugs?: boolean
+          id?: string
+          improvements?: string | null
+          liked_most?: string | null
+          other_comments?: string | null
+          rating?: number
+          tester_name?: string | null
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
