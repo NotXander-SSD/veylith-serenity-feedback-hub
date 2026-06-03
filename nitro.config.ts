@@ -1,9 +1,5 @@
-import { defineNitroConfig } from "nitropack/config";
-
-export default defineNitroConfig({
-  presets: ["netlify"],
-  output: {
-    dir: ".output",
-    publicDir: ".output/public",
-  },
-});
+// Nitro configuration is handled by @lovable.dev/vite-tanstack-config
+// This file is minimal to avoid conflicts with the preset
+export default {
+  // Netlify preset can be enabled via environment variable NITRO_PRESET=netlify
+};
