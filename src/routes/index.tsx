@@ -14,7 +14,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const VEYLITH_URL = "https://veylith.com";
+const VEYLITH_URL = "https://theveylithserenity.netlify.app";
 
 const STEPS = [
   "Click the Veylith Serenity website link below to visit the site.",
