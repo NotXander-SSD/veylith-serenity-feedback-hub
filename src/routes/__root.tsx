@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Veylith Beta" },
+      { name: "description", content: "Veylith Serenity Pre-Launch program" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Veylith Beta" },
+      { property: "og:description", content: "Veylith Serenity Pre-Launch program" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Veylith Beta" },
+      { name: "twitter:description", content: "Veylith Serenity Pre-Launch program" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/gjobgFy0suPpzX7jDGWnSWIvjWl1/social-images/social-1780482672927-White_and_Pink_Feminine_Beauty_Salon_Logo.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/gjobgFy0suPpzX7jDGWnSWIvjWl1/social-images/social-1780482672927-White_and_Pink_Feminine_Beauty_Salon_Logo.webp" },
     ],
     links: [
       {
