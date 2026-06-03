@@ -64,11 +64,11 @@ function Index() {
     if (!device) { setError("Please select which device you used."); return; }
     setSubmitting(true);
     const { error: insertError } = await supabase.from("beta_feedback").insert({
-      tester_name: name.trim() || null,
+      name: name.trim() || null,
       email: email.trim() || null,
-      rating,
+      star_rating: rating,
       device,
-      had_bugs: hadBugs,
+      has_bug: hadBugs,
       bug_description: hadBugs ? bugDesc.trim() || null : null,
       liked_most: liked.trim() || null,
       improvements: improve.trim() || null,
