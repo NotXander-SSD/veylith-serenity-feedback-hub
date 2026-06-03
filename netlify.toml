@@ -4,3 +4,10 @@
 
 [functions]
   node_bundler = "esbuild"
+
+# Catch-all redirect for client-side routing
+# Rewrites all requests to index.html with 200 status (preserves URL in browser)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
