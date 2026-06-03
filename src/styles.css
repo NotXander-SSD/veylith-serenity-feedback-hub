@@ -63,8 +63,12 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
+  /* Veylith Serenity brand */
+  --background: oklch(0.972 0.014 85);     /* cream */
+  --foreground: oklch(0.235 0.025 55);     /* dark brown #2a2218 */
+  --brand-brown: oklch(0.235 0.025 55);
+  --brand-gold: oklch(0.737 0.087 80);     /* gold #c9a96e */
+  --brand-cream: oklch(0.972 0.014 85);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.129 0.042 264.695);
   --popover: oklch(1 0 0);
